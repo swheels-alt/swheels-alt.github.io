@@ -236,4 +236,16 @@ ul.main-menu li a.active {
   box-shadow: 0 4px 16px rgba(0,0,0,0.18);
 }
 
+.portfolio-preview-img {
+  width: 100%;
+  max-width: 420px;
+  height: 180px;
+  object-fit: cover;
+  object-position: 0 60px; /* Crop about 60px from the top visually */
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+  margin: 1em 0 1.5em 0;
+  display: block;
+}
+
 
