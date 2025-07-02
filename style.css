@@ -248,4 +248,15 @@ ul.main-menu li a.active {
   display: block;
 }
 
+.contact-bottom {
+  text-align: center;
+  margin: 2em 0 1em 0;
+  font-size: 1.3rem;
+  color: #fff;
+}
+.contact-bottom a {
+  color: #EF6D3D;
+  text-decoration: underline;
+}
+
 
