@@ -1,26 +1,36 @@
 <!doctype html>
 <html>
   <head>
+    <!-- Page setup -->
     <meta charset="utf-8">
     <title>Sam Wheeler – Developer & Creative</title>
     <meta name="description" content="Sam Wheeler | Programming, Photography, Videography">
     <meta name="author" content="Sam Wheeler">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
     <link rel="icon" type="image/png" href="favicon.png">
-
+  
     <!-- Stylesheets -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" />
-    <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
-    <link href="style.css" rel="stylesheet" />
+    <!-- Reset default styles and add support for google fonts -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
+    <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css" />
+   
+    <!-- Custom styles -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
 
     <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous"></script>    
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>    
+
+    <!-- Want to add Bootstrap? -->
+    <!-- Visit: https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
+    
   </head>
   
   <body>
 
     <header id="header">
       <h1>Sam Wheeler</h1>
+      
+      <!-- Menu link fragment #id should match a div id. Example: <a href="#home"> links to <div id="home"></div>  -->
       <ul class="main-menu">
         <li><a href="#home">home</a></li>
         <li><a href="#contact">contact</a></li>
@@ -31,14 +41,42 @@
       <div class="inner">
         <div id="content"> 
           
-          <div id="home" class="content-region hide">
+          <div id="about-me" class="content-region">
+            <h2>About Me</h2>
+            <p>
+              Hi, I'm Sam Wheeler — a 21-year-old junior at Southern Illinois University Edwardsville, pursuing a Bachelor's degree in Computer Science with an expected graduation in Fall 2026.
+            </p>
+            <p>
+              I've built and launched one full-stack web project: a personal portfolio site that showcases my passion for photography and videography. This project was developed using HTML, PHP, JavaScript, and MySQL, and highlights both my technical background and creative interests.
+            </p>
+            <p>
+              In addition, I developed a job matching program that analyzes a user's resume and recommends the top 10 job postings based on similarity. The program pulls real job listings using an API and was built using Python. It's available to download on my GitHub.
+            </p>
+            <p>
+              On the technical side, I'm proficient in:
+            </p>
+            <ul>
+              <li><strong>Programming Languages:</strong> C++, C, Python, JavaScript, PHP, R</li>
+              <li><strong>Web Technologies:</strong> HTML, MySQL</li>
+              <li><strong>Frameworks/Tools:</strong> Git, MAMP, basic terminal and server setup</li>
+            </ul>
+            <p>
+              I'm constantly expanding my skill set through hands-on projects and coursework, always aiming to solve meaningful problems with code.
+            </p>
+          </div>
+          
+          <div id="home" class="content-region">
             <h2>Developer & Creative</h2>
             <p>
               I'm a computer science student and creative based in Illinois. My work blends programming, photography, and videography into meaningful, modern media.
             </p>
+            <p>
+              I study Computer Science at SIUE and spend my time building clean, functional software — and capturing visuals through photography and film. 
+              Whether it's writing backend systems or filming concerts, I'm focused on storytelling through both code and camera.
+            </p>
           </div>
           
-          <div id="contact" class="content-region hide">
+          <div id="contact" class="content-region">
             <h2>Contact</h2>
             <p>
               Let's connect — <a href="https://instagram.com/yourhandle" target="_blank">Instagram</a>, <strong>samuewh@siue.edu</strong>, or visit my full portfolio at 
@@ -54,7 +92,8 @@
       <p>© 2025 Sam Wheeler • <a href="https://swheelerinc.com/" target="_blank">Main Portfolio</a></p>
     </footer>
     
-    <script src="script.js"></script>
+    <!-- Load additional JS scripts here -->
+    <script type="text/javascript" src="script.js"></script>
     
   </body>
 </html>

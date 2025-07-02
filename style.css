@@ -62,6 +62,26 @@ p + p {
 
 }
 
+/* Professional list styling */
+ul {
+  margin: 0 auto 1.5em auto;
+  padding-left: 2em;
+}
+
+ul li {
+  margin-bottom: 0.5em;
+  line-height: 1.6;
+}
+
+/* Content section spacing */
+.content-region {
+  margin-bottom: 3rem;
+}
+
+.content-region:last-child {
+  margin-bottom: 0;
+}
+
 /**
  * Quotes & Blockquotes
  */
